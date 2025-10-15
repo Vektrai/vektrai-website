@@ -1,0 +1,210 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    
+    <!-- SEO Meta Tags -->
+    <title>Contact VEKTRAI - Get AI Project Help | Email, WhatsApp & Contact Form</title>
+    <meta name="description" content="Contact VEKTRAI for AI consulting and project assistance. Reach us via email at info@vektrai.com, WhatsApp, or our contact form. We respond within 24 hours. Support in English, Arabic, and French.">
+    <meta name="keywords" content="contact AI consultant, AI help, project assistance, Middle East, WhatsApp support, email support, AI consultation">
+    <meta name="author" content="VEKTRAI">
+    
+    <!-- Open Graph Meta Tags -->
+    <meta property="og:title" content="Contact VEKTRAI - Get AI Project Help">
+    <meta property="og:description" content="Get in touch with VEKTRAI for AI consulting and project assistance. Multiple contact options available.">
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="https://vektrai.com/contact.html">
+    <meta property="og:image" content="https://vektrai.com/assets/logo/vektrai-logo.png">
+    
+    <!-- Twitter Card Meta Tags -->
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:title" content="Contact VEKTRAI - Get AI Project Help">
+    <meta name="twitter:description" content="Contact us for AI consulting via email, WhatsApp, or contact form. Support in English, Arabic, and French.">
+    <meta name="twitter:image" content="https://vektrai.com/assets/logo/vektrai-logo.png">
+    
+    <!-- Favicon -->
+    <link rel="icon" type="image/png" href="assets/logo/vektrai-logo.png">
+    
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600;700&family=Lato:wght@300;400;700&family=Playfair+Display:wght@400;700&display=swap" rel="stylesheet">
+    
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    
+    <!-- AOS Animation Library -->
+    <link rel="stylesheet" href="https://unpkg.com/aos@2.3.1/dist/aos.css">
+    
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="assets/css/style.css">
+</head>
+<body>
+    <!-- Navigation -->
+    <nav class="navbar" id="navbar">
+        <div class="container">
+            <div class="nav-brand">
+                <img src="assets/logo/vektrai-logo.png" alt="VEKTRAI Logo">
+            </div>
+            <button class="nav-toggle" id="navToggle" aria-label="Toggle navigation">
+                <i class="fas fa-bars"></i>
+            </button>
+            <ul class="nav-menu" id="navMenu">
+                <li><a href="index.html" data-lang-key="nav-home">Home</a></li>
+                <li><a href="about.html" data-lang-key="nav-about">About</a></li>
+                <li><a href="services.html" data-lang-key="nav-services">Services</a></li>
+                <li><a href="portfolio.html" data-lang-key="nav-portfolio">Portfolio</a></li>
+                <li><a href="contact.html" class="active" data-lang-key="nav-contact">Contact</a></li>
+                <li><a href="faq.html" data-lang-key="nav-faq">FAQ</a></li>
+                <div class="language-switcher">
+                    <button class="lang-btn active" data-lang="en">EN</button>
+                    <button class="lang-btn" data-lang="ar">AR</button>
+                    <button class="lang-btn" data-lang="fr">FR</button>
+                </div>
+            </ul>
+        </div>
+    </nav>
+
+    <!-- Main Content -->
+    <main>
+        <!-- Contact Page Header -->
+        <section class="contact-header">
+            <div class="container">
+                <h1 class="section-title text-center" data-lang-key="contact-title">Get In Touch</h1>
+                <p class="section-subtitle text-center" data-lang-key="contact-subtitle">Have a question or need help with your AI project? We're here to help!</p>
+            </div>
+        </section>
+
+        <!-- Contact Form Section -->
+        <section class="contact-section">
+            <div class="container">
+                <div class="contact-grid">
+                    <!-- Contact Form -->
+                    <div class="contact-form-wrapper">
+                        <h2 data-lang-key="contact-form-title">Send Us a Message</h2>
+                        <form action="https://formspree.io/f/xwprwryj" method="POST" class="contact-form" id="contactForm">
+                            <div class="form-group">
+                                <label for="name" class="form-label" data-lang-key="form-name">Full Name</label>
+                                <input 
+                                    type="text" 
+                                    id="name" 
+                                    name="name" 
+                                    class="form-input" 
+                                    data-lang-key="placeholder-name" 
+                                    placeholder="Enter your name"
+                                    required
+                                >
+                            </div>
+                            
+                            <div class="form-group">
+                                <label for="email" class="form-label" data-lang-key="form-email">Email Address</label>
+                                <input 
+                                    type="email" 
+                                    id="email" 
+                                    name="email" 
+                                    class="form-input" 
+                                    data-lang-key="placeholder-email" 
+                                    placeholder="Enter your email"
+                                    required
+                                >
+                            </div>
+                            
+                            <div class="form-group">
+                                <label for="language" class="form-label" data-lang-key="form-language">Preferred Language</label>
+                                <select id="language" name="language" class="form-select" required>
+                                    <option value="en">English</option>
+                                    <option value="ar">العربية (Arabic)</option>
+                                    <option value="fr">Français (French)</option>
+                                </select>
+                            </div>
+                            
+                            <div class="form-group">
+                                <label for="message" class="form-label" data-lang-key="form-message">Message</label>
+                                <textarea 
+                                    id="message" 
+                                    name="message" 
+                                    class="form-textarea" 
+                                    rows="6" 
+                                    data-lang-key="placeholder-message" 
+                                    placeholder="Tell us about your project or question"
+                                    required
+                                ></textarea>
+                            </div>
+                            
+                            <button type="submit" class="btn btn-primary btn-large" data-lang-key="btn-send">
+                                Send Message
+                            </button>
+                            
+                            <div id="formMessage" class="form-message"></div>
+                        </form>
+                    </div>
+
+                    <!-- Contact Methods -->
+                    <div class="contact-methods">
+                        <h2 data-lang-key="contact-methods-title">Other Ways to Reach Us</h2>
+                        
+                        <div class="contact-method-card">
+                            <div class="contact-method-icon">
+                                <i class="fab fa-whatsapp"></i>
+                            </div>
+                            <h3 data-lang-key="contact-whatsapp-title">WhatsApp</h3>
+                            <p data-lang-key="contact-whatsapp-desc">Chat with us directly for quick responses</p>
+                            <a href="https://wa.me/966XXXXXXXXX" target="_blank" class="btn btn-outline" data-lang-key="btn-whatsapp">
+                                <i class="fab fa-whatsapp"></i> Message on WhatsApp
+                            </a>
+                        </div>
+                        
+                        <div class="contact-method-card">
+                            <div class="contact-method-icon">
+                                <i class="fas fa-envelope"></i>
+                            </div>
+                            <h3 data-lang-key="contact-email-title">Email</h3>
+                            <p data-lang-key="contact-email-desc">Send us an email and we'll respond within 24 hours</p>
+                            <a href="mailto:info@vektrai.com" class="btn btn-outline" data-lang-key="btn-email">
+                                <i class="fas fa-envelope"></i> Email Us
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-grid">
+                <div class="footer-col">
+                    <h4 data-lang-key="footer-about">About VEKTRAI</h4>
+                    <p data-lang-key="footer-description">AI Engineering Consulting for Students in the Middle East</p>
+                </div>
+                <div class="footer-col">
+                    <h4 data-lang-key="footer-quick-links">Quick Links</h4>
+                    <ul>
+                        <li><a href="services.html" data-lang-key="nav-services">Services</a></li>
+                        <li><a href="portfolio.html" data-lang-key="nav-portfolio">Portfolio</a></li>
+                        <li><a href="contact.html" data-lang-key="nav-contact">Contact</a></li>
+                        <li><a href="faq.html" data-lang-key="nav-faq">FAQ</a></li>
+                    </ul>
+                </div>
+                <div class="footer-col">
+                    <h4 data-lang-key="footer-contact">Contact</h4>
+                    <p>Email: <a href="mailto:info@vektrai.com">info@vektrai.com</a></p>
+                    <p>WhatsApp: <a href="https://wa.me/966XXXXXXXXX" target="_blank">+966 XXX XXX XXX</a></p>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2025 VEKTRAI. All rights reserved.</p>
+            </div>
+        </div>
+    </footer>
+
+    <!-- AOS Animation Library -->
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    
+    <!-- Custom JavaScript -->
+    <script src="assets/js/script.js"></script>
+</body>
+</html>
