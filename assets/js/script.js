@@ -186,7 +186,7 @@ const translations = {
     'nav-faq': 'FAQ',
     
     // Home Page - Hero Section
-    'hero-title': 'AI Engineering Consulting for Students',
+    'hero-title': 'Expert AI Engineering Solutions',
     'hero-subtitle': 'Professional guidance for your AI projects in the Middle East',
     'hero-cta': 'Explore Our Work',
     
@@ -194,15 +194,15 @@ const translations = {
     'why-choose-title': 'Why Choose VEKTRAI',
     'why-choose-subtitle': 'We provide comprehensive support for your AI journey',
     'feature-mentorship-title': 'Expert Mentorship',
-    'feature-mentorship-desc': 'One-on-one guidance from AI engineering experts who understand your academic needs',
+    'feature-mentorship-desc': 'Personalized guidance from AI engineering experts, tailored to your project goals',
     'feature-expertise-title': 'Technical Expertise',
     'feature-expertise-desc': 'Deep knowledge in NLP, ML, computer vision, and cutting-edge AI technologies',
     'feature-reports-title': 'Professional Reports',
-    'feature-reports-desc': 'Academic-quality documentation and presentations that meet university standards',
+    'feature-reports-desc': 'Professional-grade documentation and presentations that meet the highest technical standards',
     
     // Home Page - Projects
     'projects-title': 'Our Projects',
-    'projects-subtitle': 'Explore some of the successful AI projects we\'ve helped students build',
+    'projects-subtitle': 'Explore Our Successful Client Projects',
     'project1-title': 'NLP Sentiment Analysis',
     'project1-desc': 'Arabic sentiment analysis using BERT model',
     'project2-title': 'Computer Vision System',
@@ -212,17 +212,17 @@ const translations = {
     'view-all-projects': 'View All Projects',
     
     // Home Page - Testimonials
-    'testimonials-title': 'What Our Students Say',
-    'testimonials-subtitle': 'Hear from students who achieved success with our guidance',
+    'testimonials-title': 'Client Success Stories',
+    'testimonials-subtitle': 'Hear from clients who achieved success with our guidance',
     'testimonial1-text': 'VEKTRAI helped me transform my basic idea into a professional AI project. Their mentorship was invaluable for my graduation project.',
     'testimonial1-name': 'Ahmed Al-Rashid',
-    'testimonial1-info': 'Computer Science Student, King Saud University',
+    'testimonial1-info': 'King Saud University',
     'testimonial2-text': 'The team\'s expertise in Arabic NLP was exactly what I needed. They guided me through every step and my project received top marks.',
     'testimonial2-name': 'Fatima Al-Mansoori',
-    'testimonial2-info': 'AI Engineering Student, UAE University',
+    'testimonial2-info': 'AI Engineering Graduate',
     'testimonial3-text': 'Professional, knowledgeable, and patient. VEKTRAI made complex ML concepts easy to understand and implement in my research.',
     'testimonial3-name': 'Omar Al-Thani',
-    'testimonial3-info': 'Data Science Student, Qatar University',
+    'testimonial3-info': 'Qatar University',
     
     // Home Page - CTA
     'cta-title': 'Ready to Start Your AI Project?',
@@ -231,14 +231,14 @@ const translations = {
     
     // Footer
     'footer-about': 'About VEKTRAI',
-    'footer-description': 'AI Engineering Consulting for Students in the Middle East',
+    'footer-description': 'Professional AI Engineering Consulting and Solutions in the Middle East',
     'footer-quick-links': 'Quick Links',
     'footer-contact': 'Contact',
     'footer-rights': 'All rights reserved',
     
     // Services Page
     'services-title': 'Our Services',
-    'services-subtitle': 'Comprehensive AI consulting services tailored for students',
+    'services-subtitle': 'Comprehensive AI consulting services tailored to your needs',
     'service1-title': 'AI Project Development',
     'service1-desc': 'End-to-end support for building your AI project from concept to implementation. We help you design, develop, and deploy professional AI solutions that meet academic standards.',
     'service2-title': 'NLP & ML Assistance',
@@ -381,7 +381,7 @@ const translations = {
     
     // Portfolio Page
     'portfolio-title': 'Our Portfolio',
-    'portfolio-subtitle': 'Explore successful AI projects we\'ve helped students build',
+    'portfolio-subtitle': 'Explore Our Successful Client Projects',
     'portfolio-project1-title': 'Arabic NLP Sentiment Analysis',
     'portfolio-project1-desc': 'Advanced sentiment analysis system for Arabic text using BERT transformer model',
     'portfolio-project2-title': 'Smart City Object Detection',
